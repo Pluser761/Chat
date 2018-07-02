@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sign up</title>
+</head>
+<body>
+
+<form action="/views/main.html" method="POST">
+    <div id="ui-form">
+        <h3>Sign in</h3>
+        <div class="form-row">
+            <input type="text" id="login" required autocomplete="off" name="login">
+            <label for="login">Login</label>
+        </div>
+        <div class="form-row">
+            <input type="password" id="password" required autocomplete="off" name="password">
+            <label for="password">Password</label>
+        </div>
+        <div class="form-row">
+            <input type="password_copy" id="password_copy" required autocomplete="off" name="password_copy">
+            <label for="password_copy">Password again</label>
+        </div>
+        <p><input type="submit" value="Register"></p>
+        <a href="views/index.html"><p><input type="button" value="Sign in"></p></a>
+    </div>
+</form>
+
+</body>
+</html>
